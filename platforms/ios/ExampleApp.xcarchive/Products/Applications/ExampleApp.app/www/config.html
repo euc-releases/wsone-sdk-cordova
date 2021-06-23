@@ -1,0 +1,61 @@
+
+<!--config.html-->
+<!--WS1 SDK integration with Apache Cordova Sample App-->
+
+<!--Copyright © 2021 VMware, Inc. All rights reserved. This product is protected by copyright and intellectual property laws in the United States and other  countries as well as by international treaties. VMware products are covered  by one or more patents listed at http://www.vmware.com/go/patents -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+        
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+        
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body onload="fetchInformation">
+    <div class="container-md">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="d-flex flex-row">
+                <div class="p-2"><a href="index.html" class="previous round">&#8249;</a></div>
+                <div class="p-2"><a class="navbar-brand" href="#">Remote Config settings</a></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+                <div class="p-2"><label>Custom settings:</label></div>
+                <div class="p-2"><label id="customSettings">...</label></div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="button" onclick='fetchCustomSettings()' class="btn btn-primary btn-lg btn-block">Go</button>
+        </div>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
