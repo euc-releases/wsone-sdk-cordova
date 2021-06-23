@@ -1,0 +1,1 @@
+# vmware-wsone-sdk-cordova
