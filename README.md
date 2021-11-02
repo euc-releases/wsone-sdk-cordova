@@ -5,9 +5,9 @@ Use this document to install the VMware Workspace One SDK Plugin for Apache Cord
 ## Supported Components 
 This plugin works with the listed component versions.
 
-* Workspace ONE UEM Console 1907 or later
-* Android v6.0+ / API Level 23+
-* iOS 12.0+ / Xcode 12.2
+* Workspace ONE UEM Console 2005 or later
+* Android v6.0+ / API Level 23+ / Workspace ONE Intelligent Hub v20.07 or above / Gradle Android Build System (Gradle) 3.3.0 or above
+* iOS 12.0+ / Xcode 12.5/12.5.1
 
 ## Build Example Application
 Please refer following steps to run the example app.
@@ -44,8 +44,10 @@ Initialization of the SDK adds the listed features to your application, dependin
 Please follow document at implementation [GettingStarted.md](GettingStarted.md).
 
 ## Release Notes
-1. Latest versions of Workspace ONE SDKs (21.4.1 for iOS and 21.3 for Android).
-2. UIWebView references removed from Workspace ONE iOS SDK.
+1. Latest versions of Workspace ONE SDKs (21.9 for iOS and 21.8 for Android).
+2. Fixed an issue on iOS version, where the system would crash when Proxy was enabled for SDK-built apps.
+3. OpenSSL library for Android SDK 21.8
+4. recievedProfiles Notification is added for iOS.
 
 ## Workspace One SDK Documentation
 For further details about the Workspace One SDK, navigate to https://my.workspaceone.com/products/Workspace-ONE-SDK and select the required platform, SDK version and Workspace ONE UEM console version.
