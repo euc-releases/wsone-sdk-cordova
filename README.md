@@ -44,10 +44,7 @@ Initialization of the SDK adds the listed features to your application, dependin
 Please follow document at implementation [GettingStarted.md](GettingStarted.md).
 
 ## Release Notes
-1. Latest versions of Workspace ONE SDKs (21.9 for iOS and 21.8 for Android).
-2. Fixed an issue on iOS version, where the system would crash when Proxy was enabled for SDK-built apps.
-3. OpenSSL library for Android SDK 21.8
-4. recievedProfiles Notification is added for iOS.
+1. Latest versions of Workspace ONE SDKs (21.11 for iOS and Android).
 
 ## Workspace One SDK Documentation
 For further details about the Workspace One SDK, navigate to https://my.workspaceone.com/products/Workspace-ONE-SDK and select the required platform, SDK version and Workspace ONE UEM console version.
